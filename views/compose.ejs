@@ -1,0 +1,27 @@
+<%- include( "partials/header" ) -%>
+
+
+    <div class="container">
+
+        <br>
+        <h1 class="mt-2 mb-2">Compose</h1>
+        <form action="/compose" method="post">
+
+            <div class="form-group">
+                <label for="">Title</label>
+
+                <input name="postTitle" type="text" class="form-control" placeholder="New Post Title"
+                    aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <h5 class="fontweight-bold">Post</h5>
+                <textarea class="form-control" name="postBody" placeholder="Enter ur text"></textarea>
+            </div>
+            <button class="btn btn-primary mt-2" type="submit" name="button">Submit</button>
+        </form>
+
+    </div>
+
+    <%- include("partials/footer") -%>
