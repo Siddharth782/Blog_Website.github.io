@@ -9,7 +9,7 @@ const app = express();
 mongoose.connect("mongodb+srv://Siddharth_782:Siddharth02@cluster0.13o5n.mongodb.net/blogDB", { useNewUrlParser: true });
 
 
-const about = "its by me for me and will be me"
+const about = "I am Siddharth Girdhar, student from Electrical department of IIT Ropar. I am interested in Full Stack Development. I have made projects using Bootstrap 5, Node, Express, MongoDB, Mongoose, Mongo Atlas, React and have good grasp on firebase and other toolkits like heroku, Uikit."
 const contact = "Call me 8295593841"
 
 app.set('view engine', 'ejs');
